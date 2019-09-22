@@ -1,0 +1,13 @@
+
+{{if TYPE === 'unknown'}}
+require("./student.js")
+{{else}}
+require("./coach.js")
+{{/if}}
+
+
+export default function testArt (){
+    console.log('====')
+    console.log({{name}})
+    console.log("{{TYPE}}")
+}
