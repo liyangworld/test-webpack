@@ -1,3 +1,4 @@
+console.log('test.js.art 加载')
 
 {{if TYPE === 'unknown'}}
 require("./student.js")

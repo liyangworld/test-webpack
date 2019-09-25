@@ -117,7 +117,7 @@ eval("console.log(\"student\");\n\n\n//# sourceURL=webpack:///./src/student.js?"
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = testArt;\n\n__webpack_require__(/*! ./student.js */ \"./src/student.js\");\n\nfunction testArt() {\n  console.log('====');\n  console.log(1);\n  console.log(\"unknown\");\n}\n\n//# sourceURL=webpack:///./src/test.js.art?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = testArt;\nconsole.log('test.js.art 加载');\n\n__webpack_require__(/*! ./student.js */ \"./src/student.js\");\n\nfunction testArt() {\n  console.log('====');\n  console.log(1);\n  console.log(\"unknown\");\n}\n\n//# sourceURL=webpack:///./src/test.js.art?");
 
 /***/ })
 
